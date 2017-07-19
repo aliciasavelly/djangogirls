@@ -104,6 +104,10 @@ target/
 __pycache__/
 local_settings.py
 
+*~
+myvenv
+/static
+
 .env
 db.sqlite3
 Contact GitHub API Training Shop Blog About
