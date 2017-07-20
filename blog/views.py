@@ -23,4 +23,4 @@ def post_new(request):
     else:
         form = PostForm()
 
-    return render(request.POST, 'blog/post_edit.html', {'form': form})
+    return render(request, 'blog/post_edit.html', {'form': form})
