@@ -39,9 +39,16 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-  color: #ffffff;
+  color: blue;
   float: right;
   font-size: 26pt;
+  margin-right: 20px;
+}
+
+p.top-menu, .top-menu:hover, .top-menu:visited {
+  color: blue;
+  float: right;
+  font-size: 10pt;
   margin-right: 20px;
 }
 
