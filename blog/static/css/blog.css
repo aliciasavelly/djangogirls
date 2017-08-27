@@ -63,6 +63,16 @@ h1, h2, h3, h4 {
   color: #000000;
 }
 
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 .right-nav p {
   font-size: 18px;
+}
+
+.right-nav button {
+  font-size: 15px;
 }
