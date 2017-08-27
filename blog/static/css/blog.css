@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-  background-color: #ff9400;
+  background-color: #643a8c;
   margin-top: 0;
   padding: 20px 10px 20px 40px;
   position: relative;
@@ -43,15 +43,17 @@ h1, h2, h3, h4 {
 }
 
 .top-menu {
-  color: black;
+  color: white;
   font-size: 26px;
   margin-right: 10px;
   transition: 0.5s;
+  cursor: default;
 }
 
-.top-menu:hover {
+.top-menu span:hover {
   color: #4f4f4f;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .post {
@@ -78,4 +80,12 @@ h1, h2, h3, h4 {
 
 p {
   margin: 0;
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+.menu-btn a {
+  text-decoration: none;
 }
