@@ -117,3 +117,7 @@ a.top-menu:hover {
 .post p {
   margin-bottom: 10px;
 }
+
+.published {
+  font-style: italic;
+}
