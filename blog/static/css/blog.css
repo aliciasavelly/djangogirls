@@ -10,7 +10,7 @@ body {
 .page-header {
   background-color: #ff9400;
   margin-top: 0;
-  padding: 20px 20px 20px 40px;
+  padding: 20px 10px 20px 40px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -44,9 +44,8 @@ h1, h2, h3, h4 {
 
 .top-menu {
   color: black;
-  /*float: right;*/
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 10px;
   transition: 0.5s;
 }
 
@@ -66,7 +65,7 @@ h1, h2, h3, h4 {
 .right-nav {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .right-nav p {
@@ -75,4 +74,8 @@ h1, h2, h3, h4 {
 
 .right-nav button {
   font-size: 15px;
+}
+
+p {
+  margin: 0;
 }
