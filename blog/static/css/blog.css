@@ -113,3 +113,7 @@ p {
 a.top-menu:hover {
   color: white;
 }
+
+.post p {
+  margin-bottom: 10px;
+}
