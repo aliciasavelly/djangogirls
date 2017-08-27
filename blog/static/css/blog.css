@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu span:hover {
-  color: #4f4f4f;
+  color: #e5ccff;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -88,4 +88,8 @@ p {
 
 .menu-btn a {
   text-decoration: none;
+}
+
+a.top-menu:hover {
+  color: white;
 }
