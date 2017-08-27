@@ -50,6 +50,11 @@ h1, h2, h3, h4 {
   cursor: default;
 }
 
+.top-menu span {
+  color: white;
+  transition: 0.5s;
+}
+
 .top-menu span:hover {
   color: #e5ccff;
   transition: 0.5s;
@@ -84,10 +89,22 @@ p {
 
 .menu-btn {
   cursor: pointer;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+.menu-btn:hover {
+  background: #e5ccff;
+  border: 1px solid #e5ccff;
+  transition: 0.5s;
 }
 
 .menu-btn a {
   text-decoration: none;
+  /*background: white;*/
+  color: #643a8c;
 }
 
 a.top-menu:hover {
